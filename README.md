@@ -100,6 +100,9 @@ Functional enrichment analysis of differentially expressed genes further support
 [View full Table 2 (CSV)](cluster5_top15_markers.csv)
 <br>
 
+To further elucidate the identity of this population, marker gene analysis was performed. Cluster 5 displayed strong expression of canonical B-cell markers. These included immunoglobulin genes (*Igkc*, *Ighm*, *Ighd*) and B-cell receptor components (Cd79b, Ms4a1). These markers were highly enriched relative to other cell populations, confirming that Cluster 5 represents a B-cell population. A summary of the top marker genes is provided in Table 2.
+
+
 ### DISCUSSION
 
 The results of this study demonstrate that distinct immune cell populations, in this case B-cells, undergo dynamic transcriptional changes across the course of influenza infection. The identification of Cluster 5 as a B-cell population is strongly supported by the enrichment of known B-cell markers, including immunoglobulin genes and B-cell receptor components. These findings are consistent with previous single-cell studies showing that influenza infection drives the emergence of antigen-specific B-cell populations with distinct transcriptional profiles that evolve over time (Mathew et al., 2021). Furthermore, lung-resident memory B-cells have been shown to rapidly respond to infection by migrating to site of viral exposure and differentiating into antibody-secreting cells, highlighting their role in localized immune defense (MacLean et al., 2022).
@@ -114,5 +117,4 @@ In addition to immune cell dynamics, the role of epithelial cells in shaping the
 
 The enrichment of pathways related to antigen processing, lymphocyte activation, and immune signaling suggests that Cluster 5 plays an active role in coordinating immune responses during infection. The transition from strong interferon-driven responses at earlier time points to more adaptive signature later on is consistent with the known progression of influenza infection. Which is described by innate immunity initiating viral control, and adaptive immunity mediates clearance and long-term protection. The presence of B-cell markers alongside interferon-stimulated genes indicates that these processes may occur simultaneously within specific cell populations or reflect interactions between closely associated immune cells.
 
-To further elucidate the identity of this population, marker gene analysis was performed. Cluster 5 displayed strong expression of canonical B-cell markers. These included immunoglobulin genes (*Igkc*, *Ighm*, *Ighd*) and B-cell receptor components (Cd79b, Ms4a1). These markers were highly enriched relative to other cell populations, confirming that Cluster 5 represents a B-cell population. A summary of the top marker genes is provided in Table 2.
 
