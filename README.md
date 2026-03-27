@@ -1,14 +1,17 @@
 # Single-Cell-Seq
 
-**RESULTS**
+### RESULTS
 
 ![Figure 1](Figures/UMAP1.png)
+
 **Figure 1. UMAP visualization of clustered single-cell transcriptomic data.** UMAP projection of all cells showing 23 transcriptionally distinct clusters identified using Seurat clustering. Each point represents a single cell, colored by cluster identity. The clear separation of clusters indicates distinct gene expression profiles across cell populations.
 
 ![Figure 2](Figures/UMAP_organcustom.png)
+
 **Figure 2. Distribution of cells across tissue types.** UMAP projection colored by tissue of origin: respiratory mucosa (RM) , olfactory mucosa (OM) , and lateral nasal gland (LNG). Cells from different tissues are distributed across multiple clusters, with some regions showing tissue-specific enrichment, indicating both shared and tissue-specific cellular populations.
 
 ![Figure 3](Figures/UMAP_time.png)
+
 **Figure 3 Distribution of cells across infection time points.** UMAP projection colored by infection stage (Naive, D02, D05, D08, D14). Cells from different time points are broadly distributed across clusters, with localized enrichment in specific regions, suggesting dynamic transcriptional changes during infection progression.
 
 Single-cell RNA sequencing data were analyzed to characterize cellular differences and infection-associated changes in transcription across nasal tissues in mice. Dimensionality reduction and clustering identified 23 distinct cell populations, visualized using UMAP (Figure 1). Clusters were well separated, indicating distinct transcriptional profiles across cell populations. Overlay of metadata revealed that cells from different tissues (RM, OM, LNG) and different time points were broadly distributed across clusters. Although, certain regions showed enrichment for specific conditions, suggesting that there are some condition-specific cellular states observed. (Figures 2-3).
@@ -32,16 +35,21 @@ To identify populations associated with the dynamics of infection, cluster compo
 
 [View full Table 1 (CSV)](DE_results.csv)
 
+
+
 ![Figure 4](Figures/Cluster5_selectgenes.png)
+
 **Figure 4. Expression of select differentially expressed genes in Cluster 5.** Feature plots showing expression of representative genes (*Ifitm2*, *Ifi27l2a*, *Il7r*, and *Obp1a*) within Cluster 5. Expression is localized to subsets of cells, indicating transcriptional heterogeneity within this population and supporting differential expression results across infection stages.
 
 Differential expression analysis within Cluster 5 comparing D14 and D05 revealed notable transcriptional changes (Table 1). Several genes associated with antiviral responses were seen to be significantly enriched at the earlier time points, including interferon-stimulated genes such as *Iftim2* and *Ifi27l2a*. Additional immune-related genes including *Il7r* and *Lef1*, were also differentially expressed, indicating involvement of lymphocyte-associated processes. Visualization of selected genes using FeaturePlot demonstrated that their expression was localized to subsets of cells with Cluster 5, indicating heterogeneity in this population (Figure 4).
 
+
 ![Figure 5](Figures/ORA_dotplot.png)
+
 **Figure 5. Gene ontology enrichment analysis of differentially expressed genes.** Dot plot showing enriched biological processes for genes differentially expressed between D05 and D14 within Cluster 5. Dot size represents gene count and color indicates adjusted p-value. Enriched pathways include antiviral response, innate immune activation, lymphocyte differentiation, and antigen processing, consistent with an immune response to infection.
 
-
 Functional enrichment analysis of differentially expressed genes further supported these observations. Gene ontology analysis revealed significant enrichment of pathway related to antiviral response, innate immune activation, lymphocyte differentiation, and antigen processing and presentation (Figure 5). These results strongly indicate that cluster 5 is involved in coordinated immune responses during infection.
+
 
 ### Table 2. Top 15 marker genes for Cluster 5 with proportional expression values between time points
 
@@ -62,6 +70,7 @@ Functional enrichment analysis of differentially expressed genes further support
 | Smarca4 | 17.61  | 0.21    | 0.32    |
 | Cd37    | 17.47  | 0.79    | 0.08    |
 | Fcmr    | 16.73  | 0.53    | 0.00    |
+
 
 To further elucidate the identity of this population, marker gene analysis was performed. Cluster 5 displayed strong expression of canonical B-cell markers. These included immunoglobulin genes (*Igkc*, *Ighm*, *Ighd*) and B-cell receptor components (Cd79b, Ms4a1). These markers were highly enriched relative to other cell populations, confirming that Cluster 5 represents a B-cell population. A summary of the top marker genes is provided in Table 2.
 
