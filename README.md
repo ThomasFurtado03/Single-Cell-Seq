@@ -71,7 +71,7 @@ Functional enrichment analysis of differentially expressed genes further support
 | Cd37    | 17.47  | 0.79    | 0.08    |
 | Fcmr    | 16.73  | 0.53    | 0.00    |
 
-[View full Table 2 (CSV)(cluster5_top15_markers.csv)
+[View full Table 2 (CSV)](cluster5_top15_markers.csv)
 
 To further elucidate the identity of this population, marker gene analysis was performed. Cluster 5 displayed strong expression of canonical B-cell markers. These included immunoglobulin genes (*Igkc*, *Ighm*, *Ighd*) and B-cell receptor components (Cd79b, Ms4a1). These markers were highly enriched relative to other cell populations, confirming that Cluster 5 represents a B-cell population. A summary of the top marker genes is provided in Table 2.
 
