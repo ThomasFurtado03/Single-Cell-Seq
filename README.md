@@ -16,7 +16,7 @@
 
 **Figure 3 Distribution of cells across infection time points.** UMAP projection colored by infection stage (Naive, D02, D05, D08, D14). Cells from different time points are broadly distributed across clusters, with localized enrichment in specific regions, suggesting dynamic transcriptional changes during infection progression.
 
-<br><br><br>
+<br><br>
 
 Single-cell RNA sequencing data were analyzed to characterize cellular differences and infection-associated changes in transcription across nasal tissues in mice. Dimensionality reduction and clustering identified 23 distinct cell populations, visualized using UMAP (Figure 1). Clusters were well separated, indicating distinct transcriptional profiles across cell populations. Overlay of metadata revealed that cells from different tissues (RM, OM, LNG) and different time points were broadly distributed across clusters. Although, certain regions showed enrichment for specific conditions, suggesting that there are some condition-specific cellular states observed. (Figures 2-3).
 <br>
