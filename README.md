@@ -129,4 +129,26 @@ In addition to immune cell dynamics, the role of epithelial cells in shaping the
 
 The enrichment of pathways related to antigen processing, lymphocyte activation, and immune signaling suggests that Cluster 5 plays an active role in coordinating immune responses during infection. The transition from strong interferon-driven responses at earlier time points to more adaptive signature later on is consistent with the known progression of influenza infection. Which is described by innate immunity initiating viral control, and adaptive immunity mediates clearance and long-term protection. The presence of B-cell markers alongside interferon-stimulated genes indicates that these processes may occur simultaneously within specific cell populations or reflect interactions between closely associated immune cells.
 
+### REFERENCES
 
+Yu, G., Wang, L.-G., Han, Y., & He, Q.-Y. (2012). Clusterprofiler: An R package for comparing biological themes among gene clusters. *OMICS: A Journal of Integrative Biology*, *16*(5), 284-287. <https://doi.org/10.1089/omi.2011.0118>
+
+Stuart, T., Butler, A., Hoffman, P., Hafemeister, C., Papalexi, E., Mauck, W. M., Hao, Y., Stoeckius, M., Smibert, P., & Satija, R. (2019). Comprehensive integration of single-cell data. *Cell*, *177*(7). https://doi.org/10.1016/j.cell.2019.05.031
+
+McInnes, L., Healy, J., Saul, N., & Großberger, L. (2018). UMAP: Uniform manifold approximation and projection. *Journal of Open Source Software*, *3*(29), 861. https://doi.org/10.21105/joss.00861
+
+Wang, X., Dong, M., Wu, X., Schnepf, D., Thiel, J., Sun, W., Wolfrum, C., Li, S., Jin, W., Staeheli, P., & Ye, L. (2025). Single-cell transcriptomics reveals a compartmentalized antiviral interferon response in the nasal epithelium of mice. *Journal of Virology*, *99*(3). https://doi.org/10.1128/jvi.01413-24
+
+Mathew, N. R., Jayanthan, J. K., Smirnov, I. V., Robinson, J. L., Axelsson, H., Nakka, S. S., Emmanouilidi, A., Czarnewski, P., Yewdell, W. T., Schön, K., Lebrero-Fernández, C., Bernasconi, V., Rodin, W., Harandi, A. M., Lycke, N., Borcherding, N., Yewdell, J. W., Greiff, V., Bemark, M., & Angeletti, D. (2021). Single-cell BCR and transcriptome analysis after influenza infection reveals spatiotemporal dynamics of antigen-specific B cells. *Cell Reports*, *35*(12), 109286. https://doi.org/10.1016/j.celrep.2021.109286
+
+MacLean, A. J., Richmond, N., Koneva, L., Attar, M., Medina, C. A. P., Thornton, E. E., Gomes, A. C., El-Turabi, A., Bachmann, M. F., Rijal, P., Tan, T. K., Townsend, A., Sansom, S. N., Bannard, O., & Arnon, T. I. (2022). Secondary Influenza Challenge triggers resident memory B cell migration and rapid relocation to boost antibody secretion at infected sites. *Immunity*, *55*(4). https://doi.org/10.1016/j.immuni.2022.03.003
+
+Brass, A. L., Huang, I.-C., Benita, Y., John, S. P., Krishnan, M. N., Feeley, E. M., Ryan, B. J., Weyer, J. L., van der Weyden, L., Fikrig, E., Adams, D. J., Xavier, R. J., Farzan, M., & Elledge, S. J. (2009). The IFITM proteins mediate cellular resistance to influenza A H1N1 virus, West Nile virus, and dengue virus. *Cell*, *139*(7), 1243--1254. https://doi.org/10.1016/j.cell.2009.12.017
+
+Everitt, A., Clare, S., Pertel, T., John, S., Wash, R., Smith, S., Chin, C., Feeley, E., Simms, J., Adams, D., Wise, H., Kane, L., Goulding, D., Digard, P., Anttila, V., Baillie, K., Walsh, T., Hume, D., Palotie, A., ... Kellam, P. (2012). IFITM3 restricts the morbidity and mortality associated with influenza. *International Journal of Infectious Diseases*, *16*. https://doi.org/10.1016/j.ijid.2012.05.191
+
+Tantawy, M. A., Hatesuer, B., Wilk, E., Dengler, L., Kasnitz, N., Weiß, S., & Schughart, K. (2014). The interferon-induced gene IFI27L2A is active in lung macrophages and lymphocytes after influenza a infection but deletion of IFI27L2A in mice does not increase susceptibility to infection. *PLoS ONE*, *9*(9). https://doi.org/10.1371/journal.pone.0106392
+
+Rowe, T., Davis, W., Wentworth, D. E., & Ross, T. (2024). Differential interferon responses to influenza A and B viruses in primary ferret respiratory epithelial cells. *Journal of Virology*, *98*(2). https://doi.org/10.1128/jvi.01494-23
+
+Dumm, R. E., Fiege, J. K., Waring, B. M., Kuo, C. T., Langlois, R. A., & Heaton, N. S. (2019). Non-lytic clearance of influenza B virus from infected cells preserves epithelial barrier function. *Nature Communications*, *10*(1). https://doi.org/10.1038/s41467-019-08617-z
