@@ -1,5 +1,20 @@
 # Single-Cell-Seq
 
+### METHODS 
+
+Single-cell RNA sequencing data were provided as a pre-processed Seurat object containing gene expression cunts and associated metadata, including tissue origin (*organ_custom*), infection time point (*time*), and bio sample identifiers (*biosample_id*). Due to incomplete entries in the *mouse_id* field, this variable was not sued for downstream analysis. Additional quality control filtering was not performed, as the dataset was provided in a pre-processed format.
+
+All analyses were conducted in R (version 4.5.1) using the Seurat package (version 5.4.0) (Stuart et al., 2019). Highly variable genes were identified using the FindVariableFeatures() function with default parameters. To remedy and reduce computational burden, scaling was restricted to the identified variable using ScaleData(). Principal component analysis (PCA) was performed using RunPCA() on the variable gene set to reduce dimensionality.
+
+A shared nearest neighbor graph was constructed using FindNeighbors() with the first 12 principal components, selected based on inspection of the elbow plot. Clustering was performed using FindClusters() with a resolution parameter of 0.3 to identify transcriptionally distinct cell populations. Uniform Manifold Approximation (UMAP) was applied using RunUMAP() with the same principal components to visualize the data in two dimensions (McInnes et al., 2018).
+
+Cluster composition across experimental conditions was assessed by tabulating cluster membership across infection time points, Cluster 5 was selected for downstream analysis due to its differential distribution across time.
+
+Differential expression analysis was performed within Cluster 5 using Seurat's FindMarkers() function, which compared cells from D14 and D05 time points. Parameters included a minimum expression threshold (min.pct = 0.1) and a log fold-change threshold (logfc.threshold = 0.25). Ribosomal protein genes (Rps/Rpl) were later filtered form downstream interpretation due to their ubiquitous expression, and lack of biological specificity.
+
+Gene ontology enrichment analysis was performed using the clusterProfiler package (version 4.18.4) (Yu et al., 2012). Differentially expressed genes were analyzed using the enrichGO() function with biological process ontology (ont = "BP"), with gene annotations obtained from the *org.Mm.eg.db* database (Bioconductor). Enrichment results were visualized using dot plots.
+
+Marker gene identification for cluster annotation was performed using a down sampled subset of cells to reduce computational strain. Cells from Cluster 5 and a representative subset of other clusters were compared using FindMarkers() with positive markers only. The resulting gene lists were filtered to remove ribosomal and mitochondrial genes prior to interpretation.
 ### RESULTS
 
 ![Figure 1](Figures/UMAP1.png)
